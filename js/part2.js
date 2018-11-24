@@ -1,7 +1,7 @@
 /* listens for a user to move their mouse off of your page, and
 then pops up an alert asking them if they are sure they want to leave. */
 document.addEventListener('mouseleave', function () {
-    //    alert('hello'); 
+    alert('Are you sure that you want to leave?'); 
 });
 
 /* listens for clicks of the button
