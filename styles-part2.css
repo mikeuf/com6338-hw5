@@ -14,11 +14,12 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-size: 16px;
-	padding: 5%;
-	background: #C6FFDD;
-	background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);
-	background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);
-	background-size: cover;
+    padding: 5%;
+    background: #4b6cb7;
+background: -webkit-linear-gradient(to left, #182848, #4b6cb7);
+background: linear-gradient(to left, #182848, #4b6cb7);
+    background-size: cover;
+    color: #fafafa;
 }
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
 	display: block;
@@ -47,9 +48,25 @@ a {
 }
 
 
-p, h1, h2, h3, h4, h5, h6, #div1 {
-	font-family: 'Verdana';
+h1, h2, h3, h4, h5, h6, #div1 {
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 1rem;
 	padding-bottom: 0.5rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+button {
+    color: #4080CC;
+    background-color: #ff776a;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
 }
 
 #logo {
