@@ -10,7 +10,7 @@ your choice of text copy and a link to a source you used for the content of your
 document.getElementById('button1').addEventListener('click', function () {
     var section1 = document.getElementById('section1');
     var newP = document.createElement('p');
-    newP.innerHTML = '<a href="https://en.wikipedia.org/wiki/Sandor_Clegane target="_blank">https://en.wikipedia.org/wiki/Sandor_Clegane</a>';
+    newP.innerHTML = '<a href="https://en.wikipedia.org/wiki/Sandor_Clegane" target="_blank">https://en.wikipedia.org/wiki/Sandor_Clegane</a>';
     section1.appendChild(newP);
 });
 
